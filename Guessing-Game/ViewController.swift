@@ -53,9 +53,9 @@ class ViewController: UIViewController {
         guessedNumber.text = "\(numberGuessed)"
     }
     if UserTries == 0 {
-    .isHidden = true
+    submitButton.isHidden = true
     resetButton.isHidden = false
-    topLabel.text = "you lost :weary:"
+    greetingLabel.text = "you lost :weary:"
     promptUser.text = """
     \(randomNumber) was the correct number
     better luck next time
